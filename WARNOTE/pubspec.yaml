@@ -1,0 +1,31 @@
+name: warnote_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.5 <3.0.0"
+
+dependencies:
+  carbon_icons: ^0.0.1+2
+  cloud_firestore: ^4.1.0
+  codicon: ^1.0.0
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.3.0
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.2.1
+  get: 4.6.5
+  google_fonts: ^3.0.1
+  iconify_flutter: ^0.0.5
+  material_symbols: ^0.0.0
+  unicons: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
